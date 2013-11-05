@@ -29,7 +29,8 @@
     <com.android.settings.applications.LayoutPreference
         android:key="clock_options_category"
         android:fragment="com.dirtyunicorns.tweaks.fragments.ClockOptions"
-        android:layout="@layout/clock_options" />
+        android:layout="@layout/clock_options" 
+        android:title="@string/clock_options_title" />
 
     <com.android.settings.applications.LayoutPreference
         android:key="icon_manager_title"
