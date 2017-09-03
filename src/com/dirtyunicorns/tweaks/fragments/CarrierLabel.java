@@ -50,4 +50,3 @@ public class CarrierLabel extends SettingsPreferenceFragment implements Preferen
     public int getMetricsCategory() {
         return MetricsProto.MetricsEvent.DIRTYTWEAKS;
     }
-}
