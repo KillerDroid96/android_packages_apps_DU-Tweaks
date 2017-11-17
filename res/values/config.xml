@@ -14,13 +14,9 @@
      limitations under the License.
 -->
 
-<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+<resources>
 
-    <com.dirtyunicorns.tweaks.preferences.SystemSettingSwitchPreference
-        android:key="fingerprint_success_vib"
-        android:title="@string/fprint_sucess_vib_title"
-        android:summary="@string/fprint_sucess_vib_summary"
-        android:defaultValue="true" />
+    <!-- Default max number of quick settings columns -->
+    <integer name="quick_settings_layout_columns_max_default">6</integer>
 
-</PreferenceScreen>
-
+</resources>
